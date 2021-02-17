@@ -31,3 +31,5 @@ echo "Authentication successful"
 echo "Retrievimng metadata"
 sfdx force:source:retrieve --manifest manifest/package.xml
 echo "Metadata retrieved"
+
+code .
