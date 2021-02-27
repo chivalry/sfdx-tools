@@ -28,6 +28,8 @@ else
 fi
 echo "Authentication successful"
 
+cp /Users/chuck/Projects/chivalry/sfdx-tools/package.xml ./manifest/package.xml
+
 echo "Retrievimng metadata"
 sfdx force:source:retrieve --manifest manifest/package.xml
 echo "Metadata retrieved"
