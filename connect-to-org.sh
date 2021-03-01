@@ -5,6 +5,7 @@ read project_name
 echo "Creating Project $project_name..."
 sfdx force:project:create --manifest --projectname $project_name
 cd $project_name
+mkdir notes
 
 echo "Is this for a Sandbox (s) or Production (p) org?"
 read org_type
